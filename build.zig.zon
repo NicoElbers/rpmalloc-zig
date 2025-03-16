@@ -1,5 +1,5 @@
 .{
-    .name = "rpmalloc",
+    .name = .rpmalloc,
     .version = "1.4.5",
 
     .dependencies = .{
@@ -12,4 +12,6 @@
         "build.zig",
         "build.zig.zon",
     },
+
+    .fingerprint = 0x71e4e6a35334211d,
 }
